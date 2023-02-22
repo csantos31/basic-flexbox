@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.header-img {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+main {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
+
+.section-community {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-community-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-community-texts h1 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff2e7;
+}
+
+.section-community-texts h2 {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.button-community {
+  background-color: #ecd6c4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.button-community:hover{
+    background-color: rgba(236,214,196,0.53);
+}
+
+.img-community {
+  height: 430px;
+}
+
+.section-does-for-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.section-does-for-you h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.section-does-for-you p{
+    font-family: "Sarala", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+footer{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;   
+}
+
+.footer-img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
