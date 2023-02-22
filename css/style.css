@@ -36,6 +36,11 @@ header {
   font-size: 18px;
 }
 
+.menu-mobile-icon{
+  height: 40px;
+  display: none;
+}
+
 main {
   border-top: 0.4px solid #fff2e7;
   margin-bottom: 48px;
@@ -82,8 +87,8 @@ main {
   color: #2f2325;
 }
 
-.button-community:hover{
-    background-color: rgba(236,214,196,0.53);
+.button-community:hover {
+  background-color: rgba(236, 214, 196, 0.53);
 }
 
 .img-community {
@@ -98,30 +103,81 @@ main {
   margin-top: 48px;
 }
 
-.section-does-for-you h3{
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: "Righteous", cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFF2EF;
-    margin-bottom: 16px;
+.section-does-for-you h3 {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+  margin-bottom: 16px;
 }
 
-.section-does-for-you p{
-    font-family: "Sarala", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #ECD6C4;
+.section-does-for-you p {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ecd6c4;
 }
 
-footer{
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;   
+footer {
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
 }
 
-.footer-img{
-    height: 48px;
+.footer-img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .menu-mobile-icon {
     display: block;
-    margin: 0 auto;
+  }
+
+  .cabecalho-menu {
+    display: none;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: end;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 90%;
+    height: 260px;
+    z-index: 980;
+    background-color: rgba(255, 255, 255, 0.96);
+    padding-right: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+
+  .header-menu-item {
+    color: #2f2325;
+    border-bottom: 0.4px solid #8e5d52;
+  }
+
+  main {
+    padding: 17px;
+  }
+
+  .img-community {
+    height: 400px;
+  }
+
+  .section-community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
